@@ -17,12 +17,12 @@ Scenario Outline: Selecting different footer links and checking the correspondin
 Scenario Outline: Selecting different sublinks on the Google Privacy footer link     
     Given I select the Privacy link in the Google footer
     When I click on a specific Privacy Policy  "<privacy_policy>"
-    Then I verified the selected "<policy_detail>" Policty detail
+    Then I verified the selected "<policy_detail>" Policy detail
  
 Examples:     
  |privacy_policy|policy_detail|
  |Introduction|We build a range of services| 
- |Information Google collect|We want you to understand|  
+ |Information Google collects|We want you to understand|  
  |Why Google collects data|We use data to build better services|  
  |Your privacy controls|You have choices|  
  |Sharing your information|Many of our services|
