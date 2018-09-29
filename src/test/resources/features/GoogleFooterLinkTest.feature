@@ -21,25 +21,21 @@ When I click on a specific Privacy Policy  "<privacy_policy>" faisal
 Then I verified the selected "<policy_detail>" Policty detail faisal
  
 Examples:     
- |privacy_policy|policy_detail| 
- |Information we collect|We collect information|  
- |How we use information we collect|We use the information we collect|  
- |Transparency and choice|People have different privacy concerns|  
- |Information you share|Many of our services let you share information with others|
- |Accessing and updating your personal information|We aim to maintain our services in a manner that protects information|
- |Information we share|We do not share personal information with companies|
- |Information security| We work hard to protect Google and our users|
- |When this Privacy Policy applies|Our Privacy Policy applies to all of the services offered by Google LLC|
- |Compliance and cooperation with regulatory authorities|We regularly review our compliance with our Privacy Policy|
- |Changes|Our Privacy Policy may change from time to time|
- |Specific product practices|The following notices explain specific privacy practices|
- |Other useful privacy and security related materials|Further useful privacy and security related materials can be found|
- |Self Regulatory Frameworks|Self Regulatory Frameworks|
- |Key terms|An affiliate is an entity that belongs|
- |Partners|How Google uses data when you use our partners|
- |Updates|We want to be as transparent as possible about the changes|
 
-   
+ |privacy_policy|policy_detail| 
+ |Introdiuction|range of services that help millions|
+ |Information google collects|We collect information|  
+ |Why google collects data|We use the information we collect|  
+ |Your privacy controls|managing your privacy across our services|  
+ |Sharing your information|Many of our services let you share information with others|
+ |Keeping your information secure|All Google products are built with strong security features|
+ |Exporting & deleting your information|To delete your information|
+ |Compliance & cooperation with regulators| We regularly review this Privacy Policy|
+ |About this policy|This Privacy Policy applies to all of the services offered by Google LLC |
+ |Related privacy practices|The following privacy|
+ |Key terms|An affiliate is an entity that belongs|
+ |contact us|You have the controls to manage your privacy|
+ 
  
  
 Scenario Outline: Selecting different sublinks on the Google Terms footer link faisal    
