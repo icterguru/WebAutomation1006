@@ -12,7 +12,7 @@ Scenario Outline: Selecting different footer links and checking the correspondin
  
     Examples:        
     |footerLink_text|linkedPage_text|
-    |Privacy|Welcome to the Google Privacy Policy|  
+    |Privacy|This Privacy Policy is meant to help you understand what information we collect|  
     |Terms|Google Terms of Service|
 
 Scenario Outline: Selecting different sublinks on the Google Privacy footer link     
@@ -20,27 +20,23 @@ Scenario Outline: Selecting different sublinks on the Google Privacy footer link
     When I click on a specific Privacy Policy  "<privacy_policy>"
     Then I verified the selected "<policy_detail>" Policty detail
  
-Examples:     
- |privacy_policy|policy_detail| 
- |Information we collect|We collect information|  
- |How we use information we collect|We use the information we collect|  
- |Transparency and choice|People have different privacy concerns|  
- |Information you share|Many of our services let you share information with others|
- |Accessing and updating your personal information|We aim to maintain our services in a manner that protects information|
- |Information we share|We do not share personal information with companies|
- |Information security| We work hard to protect Google and our users|
- |When this Privacy Policy applies|Our Privacy Policy applies to all of the services offered by Google LLC|
- |Compliance and cooperation with regulatory authorities|We regularly review our compliance with our Privacy Policy|
- |Changes|Our Privacy Policy may change from time to time|
- |Specific product practices|The following notices explain specific privacy practices|
- |Other useful privacy and security related materials|Further useful privacy and security related materials can be found|
- |Self Regulatory Frameworks|Self Regulatory Frameworks|
- |Key terms|An affiliate is an entity that belongs|
- |Partners|How Google uses data when you use our partners|
- |Updates|We want to be as transparent as possible about the changes|
+		Examples:     
+ 		|privacy_policy|policy_detail| 
+ 		|Introduction|We build a range of services that help millions of people daily|
+ 		|Information Google collects|We want you to understand the types of information|  
+	 	|Why Google collects data|We use the information we collect from all our services|  
+	 	|Your privacy controls|You have choices regarding the information we collect|  
+ 		|Sharing your information|When you share your information|
+ 		|Keeping your information secure|We build security into our services to protect your information|
+		|Exporting & deleting your information|You can export a copy of your information or delete it from your|
+		|Compliance & cooperation with regulators|We maintain servers around the world and your information|
+		|About this policy|ABOUT THIS POLICY|
+		|Related privacy practices|RELATED PRIVACY PRACTICES|
+		|Data transfer frameworks|EU-US and Swiss-US Privacy Shield frameworks|
+ 		|Key terms|KEY TERMS|
+ 		|Partners|WHO ARE GOOGLE’S PARTNERS?|
+ 		|Updates|UPDATES: PRIVACY POLICY|
 
-   
- 
  
 Scenario Outline: Selecting different sublinks on the Google Terms footer link     
   Given I select the Terms link in the Google footer     
@@ -57,4 +53,5 @@ Scenario Outline: Selecting different sublinks on the Google Terms footer link
   |How Google Wallet uses credit card numbers|Google uses the credit card and debit card numbers|
   |How Google Voice works|Google Voice stores, processes and maintains your call history|
   |Google Product Privacy Guide|Welcome! The articles in this guide will give you more information|
+  |How Google retains data we collect|HOW GOOGLE RETAINS DATA WE COLLECT|
  

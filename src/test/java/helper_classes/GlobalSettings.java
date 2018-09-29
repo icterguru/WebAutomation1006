@@ -48,7 +48,7 @@ public final class GlobalSettings {
 			return new GlobalSettings();
 		}
 	}
-
+	
 	/**
 	 * Retrieves the value for a given property name.
 	 *
