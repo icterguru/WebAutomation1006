@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: features&#x2F;GoogleFooterLinkTest.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Google Footer links Checkup</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Selecting different footer links and checking the corresponding page</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I select &quot;&lt;footerLink_text&gt;&quot; link in the Google footer (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected Google page by the existence of the &quot;&lt;linkedPage_text&gt;&quot; text (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different footer links and checking the corresponding page</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I select &quot;Privacy&quot; link in the Google footer (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected Google page by the existence of the &quot;Welcome to the Google Privacy Policy&quot; text (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different footer links and checking the corresponding page</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (skipped)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I select &quot;Terms&quot; link in the Google footer (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected Google page by the existence of the &quot;Google Terms of Service&quot; text (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;&lt;privacy_policy&gt;&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;&lt;policy_detail&gt;&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Information we collect&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;We collect information&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;How we use information we collect&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;We use the information we collect&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Transparency and choice&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;People have different privacy concerns&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Information you share&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;Many of our services let you share information with others&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Accessing and updating your personal information&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;We aim to maintain our services in a manner that protects information&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Information we share&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;We do not share personal information with companies&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Information security&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;We work hard to protect Google and our users&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;When this Privacy Policy applies&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;Our Privacy Policy applies to all of the services offered by Google LLC&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Compliance and cooperation with regulatory authorities&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;We regularly review our compliance with our Privacy Policy&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Changes&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;Our Privacy Policy may change from time to time&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Specific product practices&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;The following notices explain specific privacy practices&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Other useful privacy and security related materials&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;Further useful privacy and security related materials can be found&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Self Regulatory Frameworks&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;Self Regulatory Frameworks&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Key terms&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;An affiliate is an entity that belongs&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Partners&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;How Google uses data when you use our partners&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Updates&quot; Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;We want to be as transparent as possible about the changes&quot; Policty detail Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I click on a specific Technologies &quot;&lt;Technologies&gt;&quot; (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;&lt;Technology_detail&gt;&quot; Technology detail (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I click on a specific Technologies &quot;Advertising&quot; (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;Advertising keeps Google and many of the websites and services you use free of charge&quot; Technology detail (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I click on a specific Technologies &quot;How Google uses cookies&quot; (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;A cookie is a small piece of text sent to your browser by a website you visit&quot; Technology detail (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I click on a specific Technologies &quot;How Google uses pattern recognition&quot; (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;How Google uses pattern recognition to make sense of images&quot; Technology detail (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I click on a specific Technologies &quot;Types of location data used by Google&quot; (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;Different types of location information may be used&quot; Technology detail (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I click on a specific Technologies &quot;How Google Wallet uses credit card numbers&quot; (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  I verified the selected &quot;Google uses the credit card and debit card numbers&quot; Technology detail (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80299" started-at="2018-09-24T16:13:22Z" finished-at="2018-09-24T16:14:42Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:runner_cukes.RunCukesTest@1e88b3c]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="80299" started-at="2018-09-24T16:13:22Z" finished-at="2018-09-24T16:14:42Z">
+      <class name="runner_cukes.RunCukesTest">
+        <test-method status="PASS" signature="initializeSuite(org.testng.ITestContext)[pri:0, instance:runner_cukes.RunCukesTest@1e88b3c]" name="initializeSuite" is-config="true" duration-ms="15" started-at="2018-09-24T12:13:22Z" finished-at="2018-09-24T12:13:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a9419d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeSuite -->
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:runner_cukes.RunCukesTest@1e88b3c]" name="run_cukes" duration-ms="80283" started-at="2018-09-24T12:13:22Z" description="Runs Cucumber Features" finished-at="2018-09-24T12:14:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: features&#x2F;GoogleFooterLinkTest.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Google Footer links Checkup</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Selecting different footer links and checking the corresponding page</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I select &quot;&lt;footerLink_text&gt;&quot; link in the Google footer (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected Google page by the existence of the &quot;&lt;linkedPage_text&gt;&quot; text (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different footer links and checking the corresponding page</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (skipped)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (skipped)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I select &quot;Privacy&quot; link in the Google footer (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected Google page by the existence of the &quot;Welcome to the Google Privacy Policy&quot; text (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different footer links and checking the corresponding page</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (skipped)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (skipped)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I select &quot;Terms&quot; link in the Google footer (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected Google page by the existence of the &quot;Google Terms of Service&quot; text (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;&lt;privacy_policy&gt;&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;&lt;policy_detail&gt;&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Information we collect&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;We collect information&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;How we use information we collect&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;We use the information we collect&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Transparency and choice&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;People have different privacy concerns&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Information you share&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;Many of our services let you share information with others&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Accessing and updating your personal information&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;We aim to maintain our services in a manner that protects information&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Information we share&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;We do not share personal information with companies&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Information security&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;We work hard to protect Google and our users&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;When this Privacy Policy applies&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;Our Privacy Policy applies to all of the services offered by Google LLC&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Compliance and cooperation with regulatory authorities&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;We regularly review our compliance with our Privacy Policy&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Changes&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;Our Privacy Policy may change from time to time&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Specific product practices&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;The following notices explain specific privacy practices&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Other useful privacy and security related materials&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;Further useful privacy and security related materials can be found&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Self Regulatory Frameworks&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;Self Regulatory Frameworks&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Key terms&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;An affiliate is an entity that belongs&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Privacy footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Partners&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;How Google uses data when you use our partners&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Privacy link in the Google footer Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a specific Privacy Policy  &quot;Updates&quot; Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;We want to be as transparent as possible about the changes&quot; Policty detail Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I click on a specific Technologies &quot;&lt;Technologies&gt;&quot; (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;&lt;Technology_detail&gt;&quot; Technology detail (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I click on a specific Technologies &quot;Advertising&quot; (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;Advertising keeps Google and many of the websites and services you use free of charge&quot; Technology detail (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I click on a specific Technologies &quot;How Google uses cookies&quot; (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;A cookie is a small piece of text sent to your browser by a website you visit&quot; Technology detail (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I click on a specific Technologies &quot;How Google uses pattern recognition&quot; (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;How Google uses pattern recognition to make sense of images&quot; Technology detail (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I click on a specific Technologies &quot;Types of location data used by Google&quot; (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;Different types of location information may be used&quot; Technology detail (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  I click on a Technologies and Principles tab (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I click on a specific Technologies &quot;How Google Wallet uses credit card numbers&quot; (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  I verified the selected &quot;Google uses the credit card and debit card numbers&quot; Technology detail (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I launch the Google home page url (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I scroll down to the end of the page Bahar (undefined)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I select the Terms link in the Google footer (undefined)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:runner_cukes.RunCukesTest@1e88b3c]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-09-24T12:14:42Z" finished-at="2018-09-24T12:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- runner_cukes.RunCukesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
