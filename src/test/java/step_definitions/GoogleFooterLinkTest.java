@@ -35,10 +35,11 @@ public class GoogleFooterLinkTest {
 	@When("^I select \"([^\"]*)\" link in the Google footer$")
 	public void i_select_link_in_the_Google_footer(String footerLink_text) throws Throwable {
 	
-		By linkedElement = By.xpath("//a[contains(text(),'" + footerLink_text + "')]");
+//		By linkedElement = By.xpath("//a[contains(text(),'" + footerLink_text + "')]");
+//		driver.findElement(linkedElement).click();
+//		or
+		driver.findElement(By.linkText(footerLink_text)).click();
 		
-		driver.findElement(linkedElement).click();
-	
 		Thread.sleep(2000);
 		
 	}
