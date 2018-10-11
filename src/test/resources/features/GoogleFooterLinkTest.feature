@@ -2,20 +2,20 @@
 Feature: Google Footer links Checkup 
 As a Google Lover, I want to learn about the legal policies and terms of service of Google and Gmail. 
 Background:
-	Given I launch the Google home page url  
-	And I scroll down to the end of the page
+	Given I launch Google home page url
+	And I scroll down to end of the page
  
-Scenario Outline: Selecting different footer links and checking the corresponding page     
-	When I select "<footerLink_text>" link in the Google footer     
+Scenario Outline: Selecting different footer links and checking the corresponding page   
+	When I select "<footerLink_text>" link in Google footer
 	Then I verified the selected Google page by the existence of the "<linkedPage_text>" text 
  
     Examples:        
     |footerLink_text|linkedPage_text|
-    |Privacy|Welcome to the Google Privacy Policy|  
+    |Privacy|When you use our services|
     |Terms|Google Terms of Service|
 
 Scenario Outline: Selecting different sublinks on the Google Privacy footer link     
-    Given I select the Privacy link in the Google footer
+    Given I select the Privacy link in Google footer
     When I click on a specific Privacy Policy  "<privacy_policy>"
     Then I verified the selected "<policy_detail>" Policy detail
  
@@ -37,9 +37,9 @@ Examples:
  |Updates|We want to be as transparent as possible about the changes|
  
 Scenario Outline: Selecting different sublinks on the Google Terms footer link     
-  Given I select the Terms link in the Google footer	    
-  When  I click on a Technologies and Principles tab    
-  And   I click on a specific Technologies "<Technologies>"  
+  Given I select the Terms link in Google footer
+  When  I click on Technologies tab
+  And   I click on specific Technologies "<Technologies>"
   Then  I verified the selected "<Technology_detail>" Technology detail
  
   Examples: 
