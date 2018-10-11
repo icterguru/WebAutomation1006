@@ -29,14 +29,14 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 public class RunCukesTest extends AbstractTestNGCucumberTests {
 	/*
 	 *  Wired name?? Don't know. For more information please visit: https://cucumber.io/docs/reference/jvm#java
-	 
+
 	 */
 
 	@BeforeSuite
 	public static void initializeSuite(ITestContext xmlSuite) throws FileNotFoundException, IOException {	
-		System.out.println("Before Suite....");
+		//System.out.println("Before Suite....");
 		String suiteName = xmlSuite.getSuite().getName();
-		//		ExtentReporter.startExtentReport(suiteName);
+		ExtentReporter.startExtentReport(suiteName);
 
 		InetAddress localHost;
 		String hostIPAddress;
@@ -44,9 +44,9 @@ public class RunCukesTest extends AbstractTestNGCucumberTests {
 			localHost = InetAddress.getLocalHost();
 
 			hostIPAddress = localHost.getHostAddress();
-			
+
 			System.out.println("Test Executing machine's Host IP Address: " + hostIPAddress);
-	
+
 		} catch (UnknownHostException e) {
 
 			e.printStackTrace();
@@ -58,8 +58,9 @@ public class RunCukesTest extends AbstractTestNGCucumberTests {
 
 	@AfterSuite
 	public static void afterSuite() {
-		System.out.println("After Suite....");
-		
+
+		//System.out.println("After Suite....");
+
 		InetAddress localHost;
 		String hostIPAddress;
 		try {
@@ -68,7 +69,7 @@ public class RunCukesTest extends AbstractTestNGCucumberTests {
 			hostIPAddress = localHost.getHostAddress();
 
 			System.out.println("Test Executing machine's Host IP Address: " + hostIPAddress);
-			
+
 		} catch (UnknownHostException e) {
 
 			e.printStackTrace();
@@ -76,7 +77,6 @@ public class RunCukesTest extends AbstractTestNGCucumberTests {
 		}
 
 	}
-
 
 }
 

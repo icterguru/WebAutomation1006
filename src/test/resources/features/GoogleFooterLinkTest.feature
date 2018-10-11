@@ -15,7 +15,7 @@ Feature: Google Footer links Checkup
       | Privacy         | This Privacy Policy is meant to help you understand what information we collect |
       | Terms           | Google Terms of Service                                                         |
 
- @wip
+  @wip
   Scenario Outline: Selecting different sublinks on the Google Privacy footer link
     Given I select the Privacy link in the Google footer
     When I click on a specific Privacy Policy "<privacy_policy>" link
@@ -47,17 +47,16 @@ Feature: Google Footer links Checkup
       | terms_Service                          | terms_Service_Page                                                     |
       | Using our Services                     | You must follow any policies made available                            |
       | Your Google Account                    | You may need a Google Account in order                                 |
-      | Privacy and Copyright Protection       | Google’s privacy policies explain                                      |
+      | Privacy and Copyright Protection       | We respond to notices of alleged copyright infringement                |
       | Your Content in our Services           | you upload, submit, store, send or receive content                     |
       | About Software in our Services         | Google gives you a personal, worldwide                                 |
       | Modifying and Terminating our Services | We are constantly changing and improving our Services                  |
       | Our Warranties and Disclaimers         | We provide our Services using a commercially reasonable level of skill |
-      | Liability for our Services             | WHEN PERMITTED BY LAW, GOOGLE, AND GOOGLE’S SUPPLIERS                  |
+      | Liability for our Services             | TO THE EXTENT PERMITTED BY LAW                                         |
       | Business uses of our Services          | If you are using our Services on behalf of a business                  |
       | About these Terms                      | We may modify these terms or any additional terms                      |
-      | Updates                                | UPDATES: TERMS OF SERVICE                                              |
+      | Updates                                | Comparison                                                       |
 
-  @wip
   Scenario Outline: Selecting different sublinks on the Google Technologies link
     Given I select the Terms link in the Google footer
     When I click on Technologies tab
@@ -67,10 +66,11 @@ Feature: Google Footer links Checkup
     Examples: 
       | technologies                                     | technology_detail                          |
       | Advertising                                      | Advertising keeps Google and many          |
-      | How Google uses cookies                          | Many websites and apps use Google services |
-      | How Google uses pattern recognition              | Many websites and apps use Google services |
-      | Types of location data used by Google            | Many websites and apps use Google services |
-      | How Google uses credit card numbers for payments | Many websites and apps use Google services |
-      | How Google Voice works                           | Many websites and apps use Google services |
-      | Google Product Privacy Guide                     | Many websites and apps use Google services |
-      | How Google retains data we collect               | Many websites and apps use Google services |
+      | How Google uses cookies                          | A cookie is a small piece of text sent     |
+      | How Google uses pattern recognition              | A computer might also be trained           |
+      | Types of location data used by Google            | We may collect and use a few types         |
+      | How Google uses credit card numbers for payments | Google uses the credit card and debit card |
+      | How Google Voice works                           | Google Voice stores                        |
+      | Google Product Privacy Guide                     | Welcome! The articles in this guide        |
+      | How Google retains data we collect               | We collect data as you use                 |
+      #| FAQ                                              | We know security and privacy               |

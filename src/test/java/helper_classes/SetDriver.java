@@ -2,6 +2,7 @@ package helper_classes;
 
 import java.util.Iterator;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
@@ -15,10 +16,7 @@ public class SetDriver {
 	public static WebDriver webDriver;
 	public String browser;
 
-
-	/**
-	 * Will create a new WebDriver for the desired browser  
-	 */
+	 //Will create a new WebDriver for the desired browser  
 	
 	@Before
 	public void getBrowser(Scenario scenario) throws Exception {
@@ -29,12 +27,16 @@ public class SetDriver {
 
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");  // For Windows
 //			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");  // For Mac
-			webDriver = new ChromeDriver();
+			
+		webDriver = new ChromeDriver();
+		webDriver.manage().window().maximize();
+		webDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
 		}
 	
 	@After
 	public void afterTest(Scenario scenario) {
-		System.out.println("After test....");
+		//System.out.println("After test....");
 		try {
 			deleteCookies(webDriver);
 			webDriver.quit();
@@ -51,7 +53,7 @@ public class SetDriver {
             Iterator<Cookie> iter= driver.manage().getCookies().iterator();
             while(iter.hasNext()){
                 Cookie C = iter.next();
-              //  System.out.println(C.getName()+"\n" + C.getPath()+"\n"+ C.getDomain()+"\n"+C.getValue()+"\n"+C.getExpiry());
+               System.out.println(C.getName()+"\n" + C.getPath()+"\n"+ C.getDomain()+"\n"+C.getValue()+"\n"+C.getExpiry());
             }
             cookies.clear();
             System.out.println(cookies.size());

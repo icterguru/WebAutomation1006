@@ -12,18 +12,19 @@ public final class GlobalSettings {
 	private static InputStream propertyFileStream;
 	private static Properties property;
 	private static GlobalSettings setting;
-	
 	private String currentDirectory; 
 
 	private GlobalSettings() {
+		
 		InetAddress localHost;
 		String hostIPAddress;	
 		property = new Properties();
+		
 		try {
 			localHost = InetAddress.getLocalHost();			 
 			hostIPAddress = localHost.getHostAddress();
 			System.out.println("Host IP Address: " + hostIPAddress);
-			
+
 			currentDirectory = System.getProperty("user.dir");
 			System.out.println("Project location: " + currentDirectory);
 			property.load(new FileInputStream(new File("./src/test/resources/properties/WPTA_GlobalSettings.properties")));
@@ -32,7 +33,7 @@ public final class GlobalSettings {
 			if (propertyFileStream != null) {
 				property.load(propertyFileStream);
 			}
-						
+
 		} catch(IOException io) {
 			System.err.println(io.getMessage());
 		}
@@ -48,7 +49,7 @@ public final class GlobalSettings {
 			return new GlobalSettings();
 		}
 	}
-	
+
 	/**
 	 * Retrieves the value for a given property name.
 	 *

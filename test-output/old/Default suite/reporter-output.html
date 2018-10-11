@@ -1,81 +1,138 @@
 <h2>Reporter output</h2><table><tr><td><div "featureFile">Feature File: features&#x2F;GoogleFooterLinkTest.feature</div></td></tr>
 <tr><td><div "feature">Feature: Google Footer links Checkup</div></td></tr>
 <tr><td><div "scenarioOutline">Scenario Outline: Selecting different footer links and checking the corresponding page</div></td></tr>
-<tr><td><div "result">When  I select &quot;&lt;footerLink_text&gt;&quot; link in the Google footer (passed : 0s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected Google page by the existence of the &quot;&lt;linkedPage_text&gt;&quot; text (passed : 2s)</div></td></tr>
+<tr><td><div "result">When  I select &quot;&lt;footerLink_text&gt;&quot; link in the Google footer (passed : 1s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected Google page by the existence of the &quot;&lt;linkedPage_text&gt;&quot; text (passed : 0s)</div></td></tr>
 <tr><td><div "scenario">Scenario Outline: Selecting different footer links and checking the corresponding page</div></td></tr>
-<tr><td><div "result">Given  I launch the Google home page url (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
 <tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I select &quot;Privacy&quot; link in the Google footer (passed : 0s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected Google page by the existence of the &quot;This Privacy Policy is meant to help you understand what information we collect&quot; text (passed : 2s)</div></td></tr>
+<tr><td><div "result">When  I select &quot;Privacy&quot; link in the Google footer (passed : 1s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected Google page by the existence of the &quot;This Privacy Policy is meant to help you understand what information we collect&quot; text (passed : 0s)</div></td></tr>
 <tr><td><div "scenario">Scenario Outline: Selecting different footer links and checking the corresponding page</div></td></tr>
-<tr><td><div "result">Given  I launch the Google home page url (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
 <tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
 <tr><td><div "scenarioOutline">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
-<tr><td><div "result">When  I select &quot;Terms&quot; link in the Google footer (passed : 0s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected Google page by the existence of the &quot;Google Terms of Service&quot; text (passed : 2s)</div></td></tr>
+<tr><td><div "result">When  I select &quot;Terms&quot; link in the Google footer (passed : 1s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected Google page by the existence of the &quot;Google Terms of Service&quot; text (passed : 0s)</div></td></tr>
 <tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 0s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;&lt;terms_Service&gt;&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;&lt;terms_Service_Page&gt;&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 2s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 0s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;Using our Services&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;You must follow any policies made available&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 0s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;Your Google Account&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;You may need a Google Account in order&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 2s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 0s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;Privacy and Copyright Protection&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;We respond to notices of alleged copyright infringement&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 0s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;Your Content in our Services&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;you upload, submit, store, send or receive content&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 4s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 0s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;About Software in our Services&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;Google gives you a personal, worldwide&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 1s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;Modifying and Terminating our Services&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;We are constantly changing and improving our Services&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 2s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 0s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;Our Warranties and Disclaimers&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;We provide our Services using a commercially reasonable level of skill&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 0s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;Liability for our Services&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;TO THE EXTENT PERMITTED BY LAW&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 1s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;Business uses of our Services&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;If you are using our Services on behalf of a business&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 0s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;About these Terms&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;We may modify these terms or any additional terms&quot; detail (passed : 2s)</div></td></tr>
+<tr><td><div "scenarioOutline">Scenario Outline: Selecting different sublinks on the Google Technologies link</div></td></tr>
+<tr><td><div "result">Given  I launch the Google home page url (passed : 1s)</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Technologies link</div></td></tr>
+<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 0s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Terms of Service &quot;Updates&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;Comparison&quot; detail (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;&lt;Technologies&gt;&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;&lt;Technology_detail&gt;&quot; Technology detail (skipped)</div></td></tr>
+<tr><td><div "result">When  I click on Technologies tab (passed : 1s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Technologies &quot;&lt;technologies&gt;&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Technologies link</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;&lt;technology_detail&gt;&quot; Technology detail (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
-<tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;Using our Services&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;our Services or try to access them using a method&quot; Technology detail (skipped)</div></td></tr>
+<tr><td><div "result">When  I click on Technologies tab (passed : 1s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Technologies &quot;Advertising&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Technologies link</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;Advertising keeps Google and many&quot; Technology detail (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
-<tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;Your Google Account&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;You may need a Google Account in order&quot; Technology detail (skipped)</div></td></tr>
+<tr><td><div "result">When  I click on Technologies tab (passed : 2s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Technologies &quot;How Google uses cookies&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Technologies link</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;A cookie is a small piece of text sent&quot; Technology detail (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
-<tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;Privacy and Copyright Protection&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;Google?s privacy policies explain&quot; Technology detail (skipped)</div></td></tr>
+<tr><td><div "result">When  I click on Technologies tab (passed : 1s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Technologies &quot;How Google uses pattern recognition&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Technologies link</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;A computer might also be trained&quot; Technology detail (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
-<tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;Your Content in our Services&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;you upload, submit, store, send or receive content&quot; Technology detail (skipped)</div></td></tr>
+<tr><td><div "result">When  I click on Technologies tab (passed : 1s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Technologies &quot;Types of location data used by Google&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Technologies link</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;We may collect and use a few types&quot; Technology detail (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
-<tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;About Software in our Services&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;Google gives you a personal, worldwide&quot; Technology detail (skipped)</div></td></tr>
+<tr><td><div "result">When  I click on Technologies tab (passed : 1s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Technologies &quot;How Google uses credit card numbers for payments&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Technologies link</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;Google uses the credit card and debit card&quot; Technology detail (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
-<tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;Modifying and Terminating our Services&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;We are constantly changing and improving our Services&quot; Technology detail (skipped)</div></td></tr>
+<tr><td><div "result">When  I click on Technologies tab (passed : 1s)</div></td></tr>
+<tr><td><div "result">When  I click on a specific Technologies &quot;How Google Voice works&quot; link (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Technologies link</div></td></tr>
+<tr><td><div "result">Then  I verified the selected &quot;Google Voice stores&quot; Technology detail (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
-<tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
+<tr><td><div "result">And  I scroll down to the end of the page (passed : 0s)</div></td></tr>
 <tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;Our Warranties and Disclaimers&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;We provide our Services using a commercially reasonable level of skill&quot; Technology detail (skipped)</div></td></tr>
-<tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
-<tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
-<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;Liability for our Services&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;WHEN PERMITTED BY LAW, GOOGLE, AND GOOGLE?S SUPPLIERS&quot; Technology detail (skipped)</div></td></tr>
-<tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
-<tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
-<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;Business uses of our Services&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;If you are using our Services on behalf of a business&quot; Technology detail (skipped)</div></td></tr>
-<tr><td><div "result">Given  I launch the Google home page url (passed : 0s)</div></td></tr>
-<tr><td><div "result">And  I scroll down to the end of the page (passed : 2s)</div></td></tr>
-<tr><td><div "scenario">Scenario Outline: Selecting different sublinks on the Google Terms footer link</div></td></tr>
-<tr><td><div "result">Given  I select the Terms link in the Google footer (passed : 2s)</div></td></tr>
-<tr><td><div "result">When  I click on a specific Technologies &quot;About these Terms&quot; (failed : 2s)</div></td></tr>
-<tr><td><div "result">Then  I verified the selected &quot;We may modify these terms or any additional terms&quot; Technology detail (skipped)</div></td></tr>
 </table>

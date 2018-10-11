@@ -1,6 +1,7 @@
 package step_definitions;
-import java.util.concurrent.TimeUnit;
+//import java.util.concurrent.TimeUnit;
 
+//import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -11,6 +12,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import helper_classes.SetDriver;
 
+
 public class GoogleFooterLinkTest {
 
 	private WebDriver driver;
@@ -18,7 +20,7 @@ public class GoogleFooterLinkTest {
 	public GoogleFooterLinkTest() {
 
 		driver = SetDriver.webDriver;
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 
 		//		new GooglePage(driver);  // Used for POM model 
 	} 
@@ -32,8 +34,8 @@ public class GoogleFooterLinkTest {
 	@Given ("^I scroll down to the end of the page$")
 	public void i_scroll_down_to_the_end_of_the_page() throws Throwable {
 
-		((JavascriptExecutor) driver).executeScript("window.scrollTo(0,document.body.scrollHeight)");
-		Thread.sleep(2000);   
+		//((JavascriptExecutor) driver).executeScript("window.scrollTo(0,document.body.scrollHeight)");
+		//Thread.sleep(2000);   
 
 	}
 
@@ -44,7 +46,7 @@ public class GoogleFooterLinkTest {
 
 		By linkedElement = By.linkText(footerLink_text);
 		driver.findElement(linkedElement).click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 	}
 
@@ -66,10 +68,10 @@ public class GoogleFooterLinkTest {
 	@When("^I click on a specific Privacy Policy \"([^\"]*)\" link$")
 	public void i_click_on_a_specific_Privacy_Policy(String privacy_policy) throws Throwable {
 
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		By linkedElement = By.linkText(privacy_policy);
 		driver.findElement(linkedElement).click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
 	}
 
@@ -83,7 +85,7 @@ public class GoogleFooterLinkTest {
 	public void i_select_the_Terms_link_in_the_Google_footer() throws Throwable {
 
 		driver.findElement(By.linkText("Terms")).click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 	}
 	
 	@When("^I click on a specific Terms of Service \"([^\"]*)\" link$")
@@ -92,19 +94,20 @@ public class GoogleFooterLinkTest {
 		By termElement = By.linkText(terms_Service);
 		System.out.println("Print.....");
 		driver.findElement(termElement).click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 	}
 
 	@Then("^I verified the selected \"([^\"]*)\" detail$")
 	public void i_verified_the_selected_detail(String terms_Service_Page) throws Throwable {
-		Assert.assertEquals(true, driver.getPageSource().contains(terms_Service_Page));
 		Thread.sleep(2000);
+		Assert.assertEquals(true, driver.getPageSource().contains(terms_Service_Page));
+		
 	}
 
 	@When("^I click on Technologies tab$")
 	public void i_click_on_Technologies_tab() throws Throwable {
 		driver.findElement(By.linkText("Technologies")).click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		
 	}
 	@When("^I click on a specific Technologies \"([^\"]*)\" link$")
@@ -113,7 +116,7 @@ public class GoogleFooterLinkTest {
 
 		By linkedElement1 = By.linkText(technologies);
 		driver.findElement(linkedElement1).click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 	}
 
 	@Then("^I verified the selected \"([^\"]*)\" Technology detail$")
