@@ -29,8 +29,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 public class RunCukesTest extends AbstractTestNGCucumberTests {
 	/*
 	 *  Wired name?? Don't know. For more information please visit: https://cucumber.io/docs/reference/jvm#java
-	 *   
-	 * 
+	 
 	 */
 
 	@BeforeSuite
