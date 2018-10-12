@@ -16,9 +16,7 @@ public class SetDriver {
 	public String browser;
 
 
-	/**
-	 * Will create a new WebDriver for the desired browser  
-	 */
+
 	
 	@Before
 	public void getBrowser(Scenario scenario) throws Exception {
@@ -34,7 +32,7 @@ public class SetDriver {
 	
 	@After
 	public void afterTest(Scenario scenario) {
-		System.out.println("After test....");
+		//System.out.println("After test....");
 		try {
 			deleteCookies(webDriver);
 			webDriver.quit();
@@ -51,7 +49,7 @@ public class SetDriver {
             Iterator<Cookie> iter= driver.manage().getCookies().iterator();
             while(iter.hasNext()){
                 Cookie C = iter.next();
-              //  System.out.println(C.getName()+"\n" + C.getPath()+"\n"+ C.getDomain()+"\n"+C.getValue()+"\n"+C.getExpiry());
+            System.out.println(C.getName()+"\n" + C.getPath()+"\n"+ C.getDomain()+"\n"+C.getValue()+"\n"+C.getExpiry());
             }
             cookies.clear();
             System.out.println(cookies.size());

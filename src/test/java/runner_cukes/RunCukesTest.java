@@ -35,9 +35,10 @@ public class RunCukesTest extends AbstractTestNGCucumberTests {
 
 	@BeforeSuite
 	public static void initializeSuite(ITestContext xmlSuite) throws FileNotFoundException, IOException {	
-		System.out.println("Before Suite....");
+		//System.out.println("Before Suite....");
 		String suiteName = xmlSuite.getSuite().getName();
-		//		ExtentReporter.startExtentReport(suiteName);
+		//ExtentReporter.startExtentReport(suiteName);
+		
 
 		InetAddress localHost;
 		String hostIPAddress;
@@ -59,7 +60,7 @@ public class RunCukesTest extends AbstractTestNGCucumberTests {
 
 	@AfterSuite
 	public static void afterSuite() {
-		System.out.println("After Suite....");
+		//System.out.println("After Suite....");
 		
 		InetAddress localHost;
 		String hostIPAddress;

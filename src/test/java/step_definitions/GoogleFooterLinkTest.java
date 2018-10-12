@@ -39,7 +39,7 @@ public class GoogleFooterLinkTest {
 
 	}
 
-	@When("^I select \"([^\"]*)\" link in the Google footer$")
+	@When("^I select \"([^\"]*)\" link in Google footer$")
 	public void i_select_link_in_the_Google_footer(String footerLink_text) throws Throwable {
 
 		//By linkedElement = By.xpath("//a[contains(text(),'" + footerLink_text + "')]");
@@ -58,14 +58,14 @@ public class GoogleFooterLinkTest {
 
 	}
 
-	@Given("^I select the Privacy link in the Google footer$")
+	@Given("^I select the Privacy link in Google footer$")
 	public void i_select_the_Privacy_link_in_the_Google_footer() throws Throwable {
 
 		Thread.sleep(2000);
 		driver.findElement(By.partialLinkText("Privacy")).click();
 
 	}
-	@When("^I click on a specific Privacy Policy \"([^\"]*)\" link$")
+	@When("^I click on a specific Privacy Policy  \"([^\"]*)\"$")
 	public void i_click_on_a_specific_Privacy_Policy(String privacy_policy) throws Throwable {
 
 		By linkedElement = By.linkText(privacy_policy);
@@ -108,7 +108,7 @@ public class GoogleFooterLinkTest {
 		//Thread.sleep(2000);
 		
 	}
-	@When("^I click on a specific Technologies \"([^\"]*)\" link$")
+	@When("^I click on specific Technologies \"([^\"]*)\"$")
 	public void i_click_on_specific_Technologies(String technologies) throws Throwable {
 
 

@@ -2,29 +2,29 @@
 Feature: Google Footer links Checkup 
 As a Google Lover, I want to learn about the legal policies and terms of service of Google and Gmail. 
 Background:
-	Given I launch Google home page url
-	And I scroll down to end of the page
+	Given I launch the Google home page url
+	And I scroll down to the end of the page
  
 Scenario Outline: Selecting different footer links and checking the corresponding page   
 	When I select "<footerLink_text>" link in Google footer
-	Then I verified the selected Google page by the existence of the "<linkedPage_text>" text 
+	Then I verified the selected Google page by the existence of the "<linkedPage_text>" text
  
     Examples:        
     |footerLink_text|linkedPage_text|
     |Privacy|When you use our services|
     |Terms|Google Terms of Service|
 
-Scenario Outline: Selecting different sublinks on the Google Privacy footer link     
+Scenario Outline: Selecting different sublinks on the Google Privacy footer link  
     Given I select the Privacy link in Google footer
     When I click on a specific Privacy Policy  "<privacy_policy>"
     Then I verified the selected "<policy_detail>" Policy detail
  
-Examples:     
+Examples:
  |privacy_policy|policy_detail|
- |Introduction|We build a range of services| 
- |Information Google collects|We want you to understand|  
- |Why Google collects data|We use data to build better services|  
- |Your privacy controls|You have choices|  
+ |Introduction|We build a range of services|
+ |Information Google collects|We want you to understand|
+ |Why Google collects data|We use data to build better services|
+ |Your privacy controls|You have choices|
  |Sharing your information|Many of our services|
  |Keeping your information secure|We build security into|
  |Exporting and deleting your information|You can export|
@@ -36,15 +36,15 @@ Examples:
  |Partners|Google works with businesses|
  |Updates|We want to be as transparent as possible about the changes|
  
-Scenario Outline: Selecting different sublinks on the Google Terms footer link     
+Scenario Outline: Selecting different sublinks on the Google Terms footer link
   Given I select the Terms link in Google footer
   When  I click on Technologies tab
   And   I click on specific Technologies "<Technologies>"
   Then  I verified the selected "<Technology_detail>" Technology detail
  
-  Examples: 
+  Examples:
   |Technologies|Technology_detail|
-  |Advertising|Advertising keeps Google and many of the websites and services you use free of charge| 
+  |Advertising|Advertising keeps Google and many of the websites and services you use free of charge|
   |How Google uses information from sites or apps that use our services|Many websites and apps use Google|
   |How Google uses cookies|A cookie is a small piece of text|
   |Types of cookies used by Google|We use different types of cookies|
